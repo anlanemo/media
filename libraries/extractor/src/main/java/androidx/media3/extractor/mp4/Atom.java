@@ -428,6 +428,22 @@ import java.util.List;
   @SuppressWarnings("ConstantCaseForConstants")
   public static final int TYPE_mdcv = 0x6d646376;
 
+  @SuppressWarnings("ConstantCaseForConstants")
+  public static final int TYPE_ap4x = 0x61703468;
+
+  @SuppressWarnings("ConstantCaseForConstants")
+  public static final int TYPE_apch = 0x61706368;
+
+  @SuppressWarnings("ConstantCaseForConstants")
+  public static final int TYPE_apcn = 0x6170636e;
+
+  @SuppressWarnings("ConstantCaseForConstants")
+  public static final int TYPE_apcs = 0x61706373;
+
+  @SuppressWarnings("ConstantCaseForConstants")
+  public static final int TYPE_apco = 0x6170636f;
+
+
   public final int type;
 
   public Atom(int type) {
