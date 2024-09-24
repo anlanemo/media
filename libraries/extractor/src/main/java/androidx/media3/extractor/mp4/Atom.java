@@ -429,7 +429,10 @@ import java.util.List;
   public static final int TYPE_mdcv = 0x6d646376;
 
   @SuppressWarnings("ConstantCaseForConstants")
-  public static final int TYPE_ap4x = 0x61703468;
+  public static final int TYPE_ap4x = 0x61703478;
+
+  @SuppressWarnings("ConstantCaseForConstants")
+  public static final int TYPE_ap4h = 0x61703468;
 
   @SuppressWarnings("ConstantCaseForConstants")
   public static final int TYPE_apch = 0x61706368;

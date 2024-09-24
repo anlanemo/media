@@ -983,6 +983,7 @@ import java.util.Objects;
           || childAtomType == Atom.TYPE_dvhe
           || childAtomType == Atom.TYPE_dvh1
           || childAtomType == Atom.TYPE_ap4x
+              || childAtomType == Atom.TYPE_ap4h
           || childAtomType == Atom.TYPE_apch
           || childAtomType == Atom.TYPE_apcn
           || childAtomType == Atom.TYPE_apcs
@@ -1151,10 +1152,10 @@ import java.util.Objects;
       mimeType = MimeTypes.VIDEO_MPEG;
     } else if (atomType == Atom.TYPE_H263) {
       mimeType = MimeTypes.VIDEO_H263;
-    } else if (atomType == Atom.TYPE_ap4x || atomType == Atom.TYPE_apch
-            || atomType == Atom.TYPE_apcn || atomType == Atom.TYPE_apcs
-            || atomType == Atom.TYPE_apco) {
-      mimeType = MimeTypes.VIDEO_ProRes;
+    } else if (atomType == Atom.TYPE_ap4x || atomType == Atom.TYPE_ap4h
+            || atomType == Atom.TYPE_apch || atomType == Atom.TYPE_apcn
+            || atomType == Atom.TYPE_apcs || atomType == Atom.TYPE_apco) {
+        mimeType = MimeTypes.VIDEO_ProRes;
     }
 
     @Nullable List<byte[]> initializationData = null;
